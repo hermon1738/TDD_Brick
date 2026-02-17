@@ -1,0 +1,27 @@
+# Workflow run artifacts
+handover.md
+skeptic_verdict.md
+test-output.txt
+test_output.txt
+
+# Skeptic packet outputs (keep contract doc)
+skeptic_packet/*
+!skeptic_packet/
+!skeptic_packet/README.md
+
+# Local workflow snapshots and caches
+.workflow/
+.pytest_cache/
+
+# Python cache artifacts
+__pycache__/
+*.pyc
+
+# Local virtual environment
+.venv/
+
+# OS and packaging/build artifacts
+.DS_Store
+dist/
+build/
+*.egg-info/
